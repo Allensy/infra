@@ -1,1 +1,3 @@
-export * from "./index";
+export {
+    Title
+} from "./index";

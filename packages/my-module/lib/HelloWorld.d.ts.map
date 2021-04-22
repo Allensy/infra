@@ -1,1 +1,1 @@
-{"version":3,"file":"HelloWorld.d.ts","sourceRoot":"","sources":["../src/HelloWorld.tsx"],"names":[],"mappings":";AAEA,eAAO,MAAM,UAAU,mBAAyB,CAAA"}
+{"version":3,"file":"HelloWorld.d.ts","sourceRoot":"","sources":["../src/HelloWorld.tsx"],"names":[],"mappings":";AAEA,aAAK,UAAU,GAAG;IACd,KAAK,CAAC,EAAE,MAAM,CAAA;CACjB,CAAA;AAED,eAAO,MAAM,KAAK,cAAe,UAAU,gBAAuB,CAAA"}

@@ -1,3 +1,7 @@
 import * as React from "react";
 
-export const HelloWorld = () => <div>Allen</div>
+type TitleProps = {
+    title?: string
+}
+
+export const Title = ({ title }: TitleProps) => <div>{title}</div>

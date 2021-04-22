@@ -1,2 +1,2 @@
-export * from "./index";
+export { Title } from "./index";
 //# sourceMappingURL=types.d.ts.map

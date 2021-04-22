@@ -1,3 +1,7 @@
 /// <reference types="react" />
-export declare const HelloWorld: () => JSX.Element;
+declare type TitleProps = {
+    title?: string;
+};
+export declare const Title: ({ title }: TitleProps) => JSX.Element;
+export {};
 //# sourceMappingURL=HelloWorld.d.ts.map

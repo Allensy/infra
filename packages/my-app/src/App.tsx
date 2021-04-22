@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import { HelloWorld } from 'my-module';
+import { Title } from 'my-module';
 
 function App() {
   return (
     <div className="App">
-          <HelloWorld/>
+          <Title title="Allen"/>
     </div>
   );
 }
