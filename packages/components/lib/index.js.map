@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sources":["../src/index.ts"],"sourcesContent":["\n\nfunction component() {\n    console.log('blabla');\n}\n\nexport {\n    component\n}"],"names":["console","log"],"mappings":"kBAEA,WACIA,QAAQC,IAAI"}
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../src/index.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,MAAM,EAAE,MAAM,iBAAiB,CAAC;AAEzC,SAAS,SAAS;IACd,OAAO,CAAC,GAAG,CAAC,QAAQ,CAAC,CAAC;AAC1B,CAAC;AAED,OAAO,EACH,SAAS,EACT,MAAM,EACT,CAAA"}

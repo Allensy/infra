@@ -20,7 +20,7 @@
     },
     "scripts": {
         "test": "echo \"Error: run tests from root\" && exit 1",
-        "dev": "microbundle watch --tsx React.createElement",
+        "dev": "microbundle watch --jsx React.createElement",
         "tsc": "tsc"
     },
     "bugs": {
