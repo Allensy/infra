@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sources":["../src/index.ts"],"sourcesContent":["// export * from './Header/Header';\n\nmodule.exports = component;\n\nfunction component() {\n    console.log('blabla');\n}"],"names":["module","exports","console","log"],"mappings":"AAEAA,OAAOC,QAEP,WACIC,QAAQC,IAAI"}
+{"version":3,"file":"index.js","sources":["../src/index.ts"],"sourcesContent":["\n\nfunction component() {\n    console.log('blabla');\n}\n\nexport {\n    component\n}"],"names":["console","log"],"mappings":"kBAEA,WACIA,QAAQC,IAAI"}

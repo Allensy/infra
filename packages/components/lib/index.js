@@ -1,2 +1,2 @@
-module.exports=function(){console.log("blabla")};
+exports.component=function(){console.log("blabla")};
 //# sourceMappingURL=index.js.map
