@@ -32,7 +32,7 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@26.0.22":
+"@types/jest@^26.0.22":
   "integrity" "sha512-eeWwWjlqxvBxc4oQdkueW5OF/gtfSceKk4OnOAGlUSwS/liBRtZppbJuz1YkgbrbfGOoeBHun9fOvXnjNwrSOw=="
   "resolved" "https://registry.npmjs.org/@types/jest/-/jest-26.0.22.tgz"
   "version" "26.0.22"
@@ -40,7 +40,7 @@
     "jest-diff" "^26.0.0"
     "pretty-format" "^26.0.0"
 
-"@types/node@*", "@types/node@14.14.41":
+"@types/node@*", "@types/node@^14.14.41":
   "integrity" "sha512-dueRKfaJL4RTtSa7bWeTK1M+VH+Gns73oCgzvYfHZywRCoPSd8EkXBL0mZ9unPTveBn+D9phZBaxuzpwjWkW0g=="
   "resolved" "https://registry.npmjs.org/@types/node/-/node-14.14.41.tgz"
   "version" "14.14.41"
@@ -50,14 +50,14 @@
   "resolved" "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.3.tgz"
   "version" "15.7.3"
 
-"@types/react-dom@17.0.3":
+"@types/react-dom@^17.0.2":
   "integrity" "sha512-4NnJbCeWE+8YBzupn/YrJxZ8VnjcJq5iR1laqQ1vkpQgBiA7bwk0Rp24fxsdNinzJY2U+HHS4dJJDPdoMjdJ7w=="
   "resolved" "https://registry.npmjs.org/@types/react-dom/-/react-dom-17.0.3.tgz"
   "version" "17.0.3"
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@17.0.3":
+"@types/react@*", "@types/react@^17.0.2":
   "integrity" "sha512-wYOUxIgs2HZZ0ACNiIayItyluADNbONl7kt8lkLjVK8IitMH5QMyAh75Fwhmo37r1m7L2JaFj03sIfxBVDvRAg=="
   "resolved" "https://registry.npmjs.org/@types/react/-/react-17.0.3.tgz"
   "version" "17.0.3"
@@ -172,7 +172,7 @@
     "ansi-styles" "^4.0.0"
     "react-is" "^17.0.1"
 
-"react-dom@17.0.2":
+"react-dom@^17.0.2":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -186,7 +186,7 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz"
   "version" "17.0.2"
 
-"react@17.0.2":
+"react@^17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
@@ -209,12 +209,12 @@
   dependencies:
     "has-flag" "^4.0.0"
 
-"tslib@2.2.0":
+"tslib@^2.2.0":
   "integrity" "sha512-gS9GVHRU+RGn5KQM2rllAlR3dU6m7AcpJKdtH8gFvQiC4Otgk98XnmMU+nZenHt/+VhnBPWwgrJsyrdcw6i23w=="
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.2.0.tgz"
   "version" "2.2.0"
 
-"typescript@4.2.4":
+"typescript@^4.2.4":
   "integrity" "sha512-V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg=="
   "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.2.4.tgz"
   "version" "4.2.4"

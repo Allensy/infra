@@ -1,5 +1,5 @@
 
-import { Header } from './Header/Header';
+import { Header } from './Haim/Haim';
 
 function component() {
     console.log('blabla');
