@@ -6,10 +6,9 @@ export default {
     component: Header,
 };
 var Template = function (args) { return React.createElement(Header, __assign({}, args)); };
-export var LoggedIn = Template.bind({});
-LoggedIn.args = {
-    user: {},
+export var Basic = Template.bind({});
+Basic.args = {
+    title: "This is my title!",
+    fontSize: "18px"
 };
-export var LoggedOut = Template.bind({});
-LoggedOut.args = {};
 //# sourceMappingURL=Header.stories.js.map

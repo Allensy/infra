@@ -6,7 +6,7 @@ component()
 export default function Home() {
     return (
         <div className={styles.container}>
-            <Header text="allen" />
+            <Header title="allen" />
         </div>
     )
 }

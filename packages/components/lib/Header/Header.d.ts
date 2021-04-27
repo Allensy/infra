@@ -1,6 +1,8 @@
 /// <reference types="react" />
 export declare type HeaderProps = {
-    text: string;
+    title?: string;
+    dark?: boolean;
+    fontSize?: string;
 };
-export declare const Header: ({ text }: HeaderProps) => JSX.Element;
+export declare const Header: ({ title, dark, fontSize }: HeaderProps) => JSX.Element;
 //# sourceMappingURL=Header.d.ts.map

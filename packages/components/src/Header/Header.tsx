@@ -1,20 +1,39 @@
 import * as React from "react";
-import styled from 'styled-components'
+import styled, { css, ThemeProvider } from 'styled-components';
+
+const defaultTheme = {
+    mainBackground: "palevioletred",
+    mainFontColor: "#333",
+};
+
+const darkTheme = {
+    mainBackground: "#333",
+    mainFontColor: "palevioletred",
+}
 
 
 export type HeaderProps = {
-    title?: string
+    title?: string,
+    dark?: boolean,
+    fontSize?: string
 }
 
-export const Header = ({ title }: HeaderProps) => {
-    const StyledHeader = styled.div`
+export const Header = ({ title, dark = false, fontSize = '14px' }: HeaderProps) => {
+
+    const StyledHeader = styled.div<{ fontSize: string }>`
     width: 100%;
-    background: yellow;
+    padding: 20px 0;
+    background-color: ${props => props.theme.mainBackground};
+    color: ${props => props.theme.mainFontColor};
+    transition: 0.2s background-color ease-in-out;
     display: flex;
     justify-content: center;
-    font-size: 20px;
-    `
-    return(
-        <StyledHeader>{title}</StyledHeader>
+    font-size: ${props => props.fontSize};
+    `;
+
+    return (
+        <ThemeProvider theme={dark ? darkTheme : defaultTheme}>
+            <StyledHeader fontSize={fontSize}> {title}</StyledHeader>
+        </ThemeProvider>
     )
 }
