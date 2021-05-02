@@ -1,54 +1,60 @@
 {
-  "name": "components",
-  "version": "0.0.0",
-  "description": "> TODO: description",
-  "author": "Allen Jacobson <allensy89@gmail.com>",
-  "homepage": "https://github.com/Allensy/infra#readme",
-  "license": "ISC",
-  "main": "./lib/index.js",
-  "directories": {
-    "lib": "src",
-    "test": "__tests__"
-  },
-  "files": [
-    "src"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Allensy/infra.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1",
-    "dev": "tsc --watch && microbundle watch --jsx React.createElement",
-    "tsc": "tsc",
-    "storybook": "start-storybook -p 6006",
-    "storybook-no-cache": "start-storybook --no-manager-cache",
-    "build-storybook": "build-storybook"
-  },
-  "bugs": {
-    "url": "https://github.com/Allensy/infra/issues"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.13.16",
-    "@storybook/addon-actions": "^6.2.9",
-    "@storybook/addon-essentials": "^6.2.9",
-    "@storybook/addon-links": "^6.2.9",
-    "@storybook/react": "^6.2.9",
-    "@types/jest": "^26.0.22",
-    "@types/node": "^14.14.41",
-    "@types/react": "^17.0.2",
-    "@types/react-dom": "^17.0.2",
-    "@types/styled-components": "^5.1.9",
-    "babel-loader": "^8.2.2",
-    "microbundle": "^0.13.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "tslib": "^2.2.0",
-    "typescript": "^4.2.4"
-  },
-  "dependencies": {
-    "monaco-editor": "^0.23.0",
-    "react-monaco-editor": "^0.43.0",
-    "styled-components": "^5.2.3"
-  }
+    "name": "components",
+    "version": "0.0.0",
+    "description": "> TODO: description",
+    "author": "Allen Jacobson <allensy89@gmail.com>",
+    "homepage": "https://github.com/Allensy/infra#readme",
+    "license": "ISC",
+    "main": "./lib/index.js",
+    "directories": {
+        "lib": "src",
+        "test": "__tests__"
+    },
+    "files": [
+        "src"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Allensy/infra.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: run tests from root\" && exit 1",
+        "dev": "tsc --watch && microbundle watch --jsx React.createElement",
+        "tsc": "tsc",
+        "build": "node ./scripts/build.ts",
+        "storybook": "start-storybook -p 6006",
+        "storybook-no-cache": "start-storybook --no-manager-cache",
+        "build-storybook": "build-storybook"
+    },
+    "bugs": {
+        "url": "https://github.com/Allensy/infra/issues"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.13.16",
+        "@storybook/addon-actions": "^6.2.9",
+        "@storybook/addon-essentials": "^6.2.9",
+        "@storybook/addon-links": "^6.2.9",
+        "@storybook/react": "^6.2.9",
+        "@types/jest": "^26.0.22",
+        "@types/node": "^14.14.41",
+        "@types/react": "^17.0.2",
+        "@types/react-dom": "^17.0.2",
+        "@types/styled-components": "^5.1.9",
+        "babel-loader": "^8.2.2",
+        "esbuild": "^0.11.17",
+        "microbundle": "^0.13.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "tslib": "^2.2.0",
+        "typescript": "^4.2.4"
+    },
+    "dependencies": {
+        "@types/react-grid-layout": "^1.1.1",
+        "@types/uuid": "^8.3.0",
+        "monaco-editor": "^0.23.0",
+        "react-grid-layout": "^1.2.0",
+        "react-monaco-editor": "^0.43.0",
+        "styled-components": "^5.2.3",
+        "uuid": "^8.3.2"
+    }
 }

@@ -3,7 +3,7 @@ import * as React from "react";
 import styled, { ThemeProvider } from 'styled-components';
 var defaultTheme = {
     mainBackground: "palevioletred",
-    mainFontColor: "#333",
+    mainFontColor: "#343",
 };
 var darkTheme = {
     mainBackground: "#333",

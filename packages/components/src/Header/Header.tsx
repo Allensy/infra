@@ -3,7 +3,7 @@ import styled, { css, ThemeProvider } from 'styled-components';
 
 const defaultTheme = {
     mainBackground: "palevioletred",
-    mainFontColor: "#333",
+    mainFontColor: "#343",
 };
 
 const darkTheme = {

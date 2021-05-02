@@ -1,16 +1,23 @@
+import { __makeTemplateObject } from "tslib";
 import React, { useEffect, useState } from 'react';
 import MonacoEditor from 'react-monaco-editor';
+import * as monaco from 'monaco-editor';
+import styled from 'styled-components';
+var Container = styled.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    width: 100%;\n    height: 100%;\n    // display: grid;\n    min-height: 200px;\n"], ["\n    width: 100%;\n    height: 100%;\n    // display: grid;\n    min-height: 200px;\n"])));
 var CodeEditor = function (_a) {
-    var value = _a.value;
+    var value = _a.value, _b = _a.dark, dark = _b === void 0 ? false : _b;
     useEffect(function () {
-        // monaco.editor.setTheme("vs-dark");
-        return function () {
-        };
-    });
+        var theme = 'vs';
+        if (dark) {
+            theme = 'vs-dark';
+        }
+        monaco.editor.setTheme(theme);
+        return function () { };
+    }, [dark]);
     var editorHandler = function (value, e) {
         console.log(value, e);
     };
-    return (React.createElement("div", { className: "CodeEditor" },
+    return (React.createElement(Container, null,
         React.createElement(MonacoEditor, { onChange: editorHandler, value: value, options: { automaticLayout: true } })));
 };
 var TextEditor = function (_a) {
@@ -30,4 +37,5 @@ var TextEditor = function (_a) {
     return (React.createElement("textarea", { onChange: editorHandler, className: "TextEditor", autoFocus: true, value: currentValue, cols: 30, rows: 10 }));
 };
 export { CodeEditor, TextEditor };
+var templateObject_1;
 //# sourceMappingURL=Editor.js.map

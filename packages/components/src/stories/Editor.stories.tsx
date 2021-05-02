@@ -11,6 +11,13 @@ export default {
 const Template: Story<EditorProps> = (args) => <CodeEditor {...args} />
 
 export const Basic = Template.bind({});
+export const Dark = Template.bind({});
+
+Dark.args = {
+    dark: true,
+    value: "Hello dark :)"
+}
 Basic.args = {
     value: "Hello world"
 }
+

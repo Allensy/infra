@@ -6,6 +6,8 @@ import styled, { css, ThemeProvider } from 'styled-components';
 const Container = styled.div`
     width: 100%;
     height: 100%;
+    // display: grid;
+    min-height: 200px;
 `;
 
 
@@ -21,8 +23,8 @@ const CodeEditor = ({ value, dark = false }: EditorProps) => {
         if (dark) {
             theme = 'vs-dark';
         }
-            monaco.editor.setTheme(theme);
-        return () => {};
+        monaco.editor.setTheme(theme);
+        return () => { };
     }, [dark]);
 
     const editorHandler = (value: string, e: object) => {
@@ -34,7 +36,8 @@ const CodeEditor = ({ value, dark = false }: EditorProps) => {
             <MonacoEditor
                 onChange={editorHandler}
                 value={value}
-                options={{ automaticLayout: true }} />
+                options={{ automaticLayout: true }}
+            />
         </Container>
     )
 }
